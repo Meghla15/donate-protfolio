@@ -102,3 +102,61 @@
 #line{
     width: 765px;
 }
+
+.family-child{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 110px;
+}
+.food{
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    width: 360px;
+    height: 352px;
+    flex-shrink: 0;  
+}
+.food-title{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+   
+    
+}
+
+.shelter{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    width: 360px;
+    height: 352px;
+    flex-shrink: 0;
+}
+.shelter-title{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+.education{
+    border-radius: 5px;
+    background: #FFF4D6;
+    width: 360px;
+    height: 352px;
+    flex-shrink: 0;
+}
+.education-title{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 32px;
+}
+
+.third-section-title{
+    float: left;
+}
+.fourth-section-title{
+    float: right;
+}
