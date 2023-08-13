@@ -3,12 +3,13 @@
 }
 
 .header{
-    width: 2000px;
+    width:1440px;
     height: 669px;
     flex-shrink: 0;
     background-image: url(../images/donation.jpg);
     color: #121212, #12121200;
     background-repeat: no-repeat;
+    
 }
 
 .nav-title{
@@ -21,14 +22,15 @@
 .nav-description{
     color:black;
     text-align: center;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+    width: 691px;
+    margin-top: 20px;
 }
 .btn-primary{
-    
+    margin-top: 30px;
     display: flex;
     width: 160px;
     padding: 16px 12px;
@@ -39,10 +41,8 @@
     background: #FF5959;
 
     color: #FFF;
-   font-feature-settings: 'clig' off, 'liga' off;
    font-family: Inter;
    font-size: 20px;
-   font-style: normal;
    font-weight: 600;
-   line-height: normal;
+   
 }
