@@ -213,4 +213,69 @@
     font-weight: 400;
     line-height: 28px;
     width: 482px;
+   
+}
+
+.email{
+    width: 809px;
+    height: 200px;
+    flex-shrink: 0;
+    background: #FFF4D6;
+   margin: 76px 190px 76px 190px;
+   align-items: center;
+}
+
+div input{
+   
+   width: 275px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+   
+}
+
+.btn-primaryy{
+    border-radius: 0px 5px 5px 0px;
+    background: #FF5959;
+    width: 157px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.last{
+    display: flex;
+    width: 1440px;
+    height: 177px;
+    padding: 43px 629px 42px 653px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    background : var(--default-black, #0B0D17);
+}
+
+.last-title{
+    color: #FF5959;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Lobster;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px; /* 122.222% */
+    letter-spacing: 0.5px;
+    text-align: center;
+    gap: 26px;
+  
+}
+
+.last-description{
+    color: var(--text-gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+
+/* Body / Body 2 */
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
 }
